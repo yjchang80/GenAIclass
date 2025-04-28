@@ -24,7 +24,7 @@ from utils import (
 
 # Load environment variables
 load_dotenv()
-openai_api_key = st.secrets("OPENAI_API_KEY")
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 genai = GenAI(openai_api_key)
 
 # Configure page settings
